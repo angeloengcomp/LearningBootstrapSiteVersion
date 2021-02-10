@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+
+    <title>Bootstrap - botões</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body style="padding-bottom: 200px; width: 600px; margin: 0 auto;">
+    <!--Navbar-->
+    <nav class="navbar navbar-primary fixed-bottom bg-dark" style="width: 15%; font-size: small;">
+        <div class="">
+            <div id="nav-principal ">
+                <!--Menu Header-->
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a href="index.html " class="nav-link ">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="alertas-barra-progresso.html " class="nav-link ">Alertas / Barras de Progresso</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="alinhamento-grid.html" class="nav-link ">Alinhamento do Grid</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="alinhamento-textos.html" class="nav-link ">Alinhamento de Textos</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="barra-navegacao.html" class="nav-link"> Barra de Navegação</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="botoes.html" class="nav-link ">Botões</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="breakpoints.html" class="nav-link ">Breakpoints</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="carousel.html" class="nav-link ">Carousel</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="cartoes-parte1.html" class="nav-link ">Cartões</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="classes-flexbox.html" class=" ">Classes Flexbox</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="configuracoes-grid.html" class="nav-link ">Configurações Grid</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="cores-background.html" class="nav-link ">Background</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="elementos-flutuantes.html" class="nav-link ">Elementos Flutuantes</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="formatacao-texto.html " class="nav-link ">Formatação de Textos</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="formularios.html" class="nav-link ">Formulários</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="grid.html" class="nav-link ">Grid</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="icones.html" class="nav-link ">Icones</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="input-group.html" class="nav-link ">Input Group</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="jumbotron-alinhamento-imagens.html" class="nav-link ">Jumbotron / Alinhamento de imagens</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="listas.html" class="nav-link ">Listas</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="margin-padding.html" class="nav-link ">Margin-Padding</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="margin-wrap.html" class="nav-link ">Margin-Wrap</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="tabelas-paginacao.html" class="nav-link ">Tabelas / Paginação</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="bordas.html" class="nav-link ">Bordas</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="index.html" class="nav-link ">Inspecione a página para ver o código fonte da estrutura</a>
+                    </li>
+                </ul>
+            </div>
+            <!--fim Menu Header-->
+        </div>
+    </nav>
+    <!--/Navbar-->
+    <div class="container">
+
+        <!-- Botoes 
+    formatação padrao: btn
+    formatação específicas:
+    btn-primary, btn-secondary, btn-success, btn-info,
+    btn-warning, btn-danger, btn-light, btn-dark, btn-link
+    -->
+        <h3>Botões</h3>
+        <button class="btn btn-info" type="button">Clique</button>
+
+        <h3>Botões com diferentes tags</h3>
+        <a class="btn btn-danger" href="#">Link</a>
+        <button class="btn btn-danger" type="submit">Submit</button>
+        <input class="btn btn-danger" type="button" value="Button">
+        <input class="btn btn-danger" type="submit" value="Input Submit">
+        <input class="btn btn-danger" type="reset" value="Reset">
+
+        <!-- Botoes com contorno
+    btn-outline-<formato>
+    -->
+        <h3>Botões com contorno</h3>
+        <button class="btn btn-outline-info" type="button">Clique</button>
+
+        <!-- Tamanhos de botões
+    opções: btn-lg, btn-sm, btn-block
+    -->
+        <h3>Tamanhos dos botões</h3>
+
+        <button class="btn btn-lg btn-primary" type="button">Grande</button>
+        <button class="btn btn-primary" type="button">Normal</button>
+        <button class="btn btn-sm btn-primary" type="button">Pequeno</button>
+        <br><br>
+        <button class="btn btn-block btn-danger" type="button">Bloco</button>
+
+        <!-- Estados dos botões
+    opções: active, disabled
+    -->
+        <h3>Estados de botões</h3>
+        <button class="btn btn-warning " type="button">Normal</button>
+        <button class="btn btn-warning active" type="button">Ativo</button>
+        <button class="btn btn-warning disabled" type="button">Inativo</button>
+        <br><br>
+        <button class="btn btn-success" type="button" data-toggle="button">Alternar</button>
+
+        <h3>Grupos de botões - horizontal</h3>
+        <div class="btn-group">
+            <button class="btn btn-info" type="button">Esquerda</button>
+            <button class="btn btn-info" type="button">Centro</button>
+            <button class="btn btn-info" type="button">Direita</button>
+        </div>
+
+        <h3>Grupos de botões - vertical</h3>
+        <div class="btn-group-vertical">
+            <button class="btn btn-info" type="button">Topo</button>
+            <button class="btn btn-info" type="button">Meio</button>
+            <button class="btn-info btn" type="button">Fundo</button>
+        </div>
+
+        <h3>Toolbar de botões</h3>
+        <div class="btn-toolbar">
+            <div class="btn-group">
+                <button class="btn btn-danger" type="button">1</button>
+                <button class="btn btn-danger" type="button">2</button>
+                <button class="btn btn-danger" type="button">3</button>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-danger" type="button">4</button>
+                <button class="btn btn-danger" type="button">5</button>
+            </div>
+        </div>
+
+        <h3>Botões dropdown</h3>
+        <div class="dropdown">
+            <button class="btn btn-success dropdown-toggle" data-toggle="dropdown" type="button">
+            Clique
+        </button>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Link 1</a>
+                <a href="#" class="dropdown-item">Link 2</a>
+                <a href="#" class="dropdown-item">Link 3</a>
+            </div>
+        </div>
+
+        <h3>Social Icons</h3>
+        <!--Facebook button-->
+
+        <div>
+            <button class="btn btn-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg>
+              Facebook
+        </button>
+        </div>
+
+        <!-- Whatsapp icon-->
+        <br><br>
+        <div>
+            <button class="btn btn-success">
+            <svg mlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#f45" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+              </svg>
+              Whatsapp
+        </button>
+        </div>
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
